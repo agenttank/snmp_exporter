@@ -1,0 +1,6 @@
+services:
+  snmp_exporter:
+    build: .
+    command: snmp_exporter
+    ports:
+      - 9116:9116
